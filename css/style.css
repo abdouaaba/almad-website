@@ -111,13 +111,13 @@ nav .mobile-menu-exit {
   -ms-grid-column-align: center;
       justify-self: center;
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2em;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 #hero .hero-info .hero-descr {
   margin-top: -0.5em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 400;
 }
 
@@ -258,6 +258,12 @@ footer .copyright {
     font-weight: 600;
     background: #6472F9;
   }
+  #hero .container .hero-info h1 {
+    font-size: 2.8em;
+  }
+  #hero .container .hero-info h2 {
+    font-size: 1.7em;
+  }
   footer {
     padding: 50px auto;
   }
@@ -296,11 +302,11 @@ footer .copyright {
   }
   #hero .container .hero-info h1 {
     display: inline-block;
-    font-size: 2.8em;
+    font-size: 2.5em;
   }
   #hero .container .hero-info h2 {
     display: inline-block;
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
   #hero .container .hero-img {
     -ms-flex-item-align: center;
