@@ -1,102 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="navbar">
+    
+            <div class="logo">
+                <a href="index.html"><img src="img/almad.png" alt="logo" height="28px"></a>
+            </div> 
+    
+            <img id="mobile-cta" class="mobile-menu" src="img/menu-icon.svg" alt="Open navbar" height="24px">
+    
+    
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="img/close-icon.svg" alt="Close navbar" height="24px">
+    
+                <ul class="main-nav">
+                    <li class="bold"><a href="#">Home</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+    
+                <ul class="second-nav">
+                    <li><a href="#">Sign out</a></li>
+                </ul>
+            </nav>
+    
+        </div>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Almad E-Learning</title>
-    </head>
-
-    <body>
-        <header>
-            <div class="navbar">
-
-                <div class="logo">
-                    <a href="index.html"><img src="img/almad.png" alt="logo" height="28px"></a>
-                </div> <!-- end logo -->
-
-                <img id="mobile-cta" class="mobile-menu" src="img/menu-icon.svg" alt="Open navbar" height="24px">
 
 
-                <nav>
-                    <img id="mobile-exit" class="mobile-menu-exit" src="img/close-icon.svg" alt="Close navbar" height="24px">
+     <div class="container">
+         <div class ="class_card">
+             <h4>Class title</h4>
+         </div> 
+         <div class="main">
+            <div class="bar">
+                <ul>
+                    <li id="show_teacher"> Teacher</li>
+                    <li id="show_content">Content</li>
+                    <li id="show_participants">Participants</li>
+                </ul>
+            </div>
+            <div class="teacher">
+                    <div class="img-name-mail">
+                        <div class="_img">
+                            <img class="user-img" width="150px" src="img/user-avatar.png" alt="teacher image">
+                        </div> 
+                        <div class="n_m">       
+                            <span class="name">Lotfi Ahmed</span><br>
+                            <span class="mail">lotfi@gmail.com</span>
+                        </div>    
+                    </div>
+                    <div class="about">
+                        <h5>About</h5>
+                        <p>I'm ahmed, 24yrs old , engineering student from Ensa Safi,i like to code.</p>
+                    </div>
+            </div>
+            <div class="content">
+                <div class="post">
+                  <div class="top_post">  
+                     <div class="title_date"> 
+                         <h4>Post title</h4>                         
+                     </div>
+                     <div class="edit">
+                         <img id="show_options" src="img/3-vertical-dots.svg" alt="options">
+                         <div id="close_options">+</div>
 
-                    <ul class="main-nav">
-                        <li class="bold"><a href="#">Home</a></li>
-                        <li><a href="#">Classes</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                         <ul class="e_r">
+                             <li><span class="e">Edit</span></li>
+                             <li><span class="r">Remove</span></li>
+                         </ul>
+                     </div>
+                  </div>
+                  <div class="post_content">
+                        <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Open</a>
+                  </div>
+                  <div class="commentaire">
+                      <label class="comm">
+                          <input type="text" placeholder="Write your comment">
+                          <img src="img/Comment_perspective_matte.png" alt="send_comment">
+                      </label>
 
-                    <ul class="second-nav">
-                        <li><a href="#">Log in</a></li>
-                        <li class="rounded"><a href="#">Sign up</a></li>
-                    </ul>
-                </nav> <!-- end second-nav -->
-
-            </div> <!-- end navbar -->
-        </header>
-        
-        <section id="hero" >
-            <div class="container">
-                <div class="hero-info ">
-                    <h1 class="hero-title">ALMAD E-LEARNING</h1>
-                    <h2 class="hero-descr">Online Learning Platform</h2>
-                </div>
-                
-                <div class="hero-img">
-                    <img src="img/hero-img.svg" alt="Illustration">
+                  </div>
                 </div>
             </div>
-        </section>
-        
-        <section id="about" >
-            <div class="container">
-                <div class="about-title">
-                    <h2>Who are we ?</h2>
-                </div>
-                <div class="about-text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque officiis impedit exercitationem aperiam culpa repudiandae, architecto fugiat cumque dignissimos perferendis rerum eum aliquid assumenda consequatur aspernatur accusantium adipisci rem quasi!
-                    </p>
-                </div>
+            <div class="participants">
+
+
             </div>
-        </section>
+         </div>
         
-        <footer>
-            <div class="container">
-                <div class="itemleft item">
-                    <h3>Developed by</h3>
-                    <ul>
-                        <li><a href="#">AA</a></li>
-                        <li><a href="#">AMa</a></li>
-                        <li><a href="#">AMo</a></li>
-                    </ul>
-                </div>
-                <div class="itemright item text">
-                    <h3>Contact us</h3>
-                    <p>yourmail@gmail.com</p>
-                </div>
-                <div style="clear:both;"></div>
-                <p class="copyright">Almad E-Learning © 2022</p>
-            </div>
-        </footer>
-        
-        <script>
+     </div>
+     <script>
 
-            const mobileBtn = document.getElementById('mobile-cta')
-                  nav = document.querySelector('nav')
-                  mobileBtnExit = document.getElementById('mobile-exit');
-            
-            mobileBtn.addEventListener('click', () => {
-                nav.classList.add('menu-btn')
-            })
+        const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById('mobile-exit');
 
-            mobileBtnExit.addEventListener('click', () => {
-                nav.classList.remove('menu-btn')
-            })
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
 
-        </script>
-    </body>
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+    
+        document.getElementById("show_teacher").addEventListener("click",
+        function () {
+                    document.querySelector(".content").style.display = "none";
+                    document.querySelector(".participants").style.display = "none";
+                    document.querySelector(".teacher").style.display = "block";
+                    document.getElementById("show_teacher").style.color="#6472F9";
+                    document.getElementById("show_teacher").style.borderBottomStyle = "Solid";
+                    document.getElementById("show_content").style.color = "white";
+                    document.getElementById("show_content").style.borderBottomStyle = "none";
+                    document.getElementById("show_participants").style.color = "white";
+                    document.getElementById("show_participants").style.borderBottomStyle = "none";
+        });
+        document.getElementById("show_content").addEventListener("click",
+                function () {
+                    document.querySelector(".content").style.display = "block";
+                    document.querySelector(".teacher").style.display = "none";
+                    document.querySelector(".participants").style.display = "none";
+                    document.getElementById("show_content").style.color = "#6472F9";
+                    document.getElementById("show_content").style.borderBottomStyle = "Solid";
+                    document.getElementById("show_teacher").style.color = "white";
+                    document.getElementById("show_teacher").style.borderBottomStyle = "none";
+                    document.getElementById("show_participants").style.color = "white";
+                    document.getElementById("show_participants").style.borderBottomStyle = "none";
+        });
+        document.getElementById("show_participants").addEventListener("click",
+                function () {
+                    document.querySelector(".participants").style.display = "block";
+                    document.querySelector(".teacher").style.display = "none";
+                    document.querySelector(".content").style.display = "none";
+                    document.getElementById("show_participants").style.color = "#6472F9";
+                    document.getElementById("show_participants").style.borderBottomStyle = "Solid";
+                    document.getElementById("show_teacher").style.color = "white";
+                    document.getElementById("show_teacher").style.borderBottomStyle = "none";
+                    document.getElementById("show_content").style.color = "white";
+                    document.getElementById("show_content").style.borderBottomStyle = "none";
+        });
+        document.getElementById("show_options").addEventListener("click",
+                function () {
+                    document.querySelector(".e_r").style.display = "block";
+                    document.getElementById("show_options").style.display = "none";
+                    document.getElementById("close_options").style.display = "block";
+                }
+        );
+        document.getElementById("close_options").addEventListener("click",
+                function () {
+                    document.querySelector(".e_r").style.display = "none";
+                    document.getElementById("show_options").style.display = "block";
+                    document.getElementById("close_options").style.display = "none";
+                }
+        );
+
+    </script>
+</body>
 </html>
